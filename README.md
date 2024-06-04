@@ -1,6 +1,6 @@
 # SUI
 
-Shortcut User interface for controlling computer and web app shortcuts.
+Shortcut User interface for controlling computer and web app.
 
 [中文版本](./README_zh.md)
 
@@ -255,7 +255,8 @@ In fallthrough mode, all keystrokes starting with the leader are output as is. T
 (leader+k) = focus on lower window (if there is only one window in the current tab, you can focus on the tiled layer or do nothing)
 (leader+w left) = focus on left window (if the current tab has only one window, you can focus on the left tab or nothing)
 (leader+w right) = focus on right window (if current tab has only one window, focus on right tab or no action)
-(leader+w up) = focus on upper window (if there is only one window in the current tab, you can focus on the floating layer or nothing)((leader+w down) = focus on lower window (if the current tab has only one window, you can focus on the tiled layer or no action)
+(leader+w up) = focus on upper window (if there is only one window in the current tab, you can focus on the floating layer or nothing)
+(leader+w down) = focus on lower window (if the current tab has only one window, you can focus on the tiled layer or no action)
 (leader+left) = focus on left tab
 (leader+right) = focus on right tab
 (leader+up) = focus on floating layer
