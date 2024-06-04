@@ -78,7 +78,7 @@ SUI可以很好的在标准的qwerty布局和我正在使用的norman布局上�
 
 ## 视频演示
 
-我在bilibili录制了一个[视频](#视频演示)来说明一些sui现在在我电脑上的使用情况.
+我在bilibili录制了一个[视频](https://www.bilibili.com/video/BV14w4m1q7YQ/)来说明一些sui现在在我电脑上的使用情况.
 
 ## SUI接口
 
