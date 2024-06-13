@@ -101,6 +101,7 @@ SUI根据接口的作用不同将其分为不同的接口, 并使用不同的按
 - [size interface](#size-interface)
 - [copy&paste interface](#copy&paste-interface)
 - [eidtor interface](#editor-interface)
+- [browser interface](#browser-interface)
 
 ### space interface
 
@@ -508,6 +509,33 @@ vim原生会用中括号表示光标跳转到某一个对象的前后对象, 例
 | t             | todo的标记                      |
 | b             | 括号对象                        |
 | q             | 引号对象                        |
+
+### browser interface
+
+浏览器和vim模式的文本编辑器其实在某些地方有相似的地方, 比如都是默认是对网页或文本进行浏览而不是编辑.
+由于浏览器的特殊性, 所以 动作+对象已经能够很好的表达浏览器里面一些常用的操作了. 网页中有一个特殊的范围m可以代表同时处理多个对象, 比如同时拷贝多个单词.
+
+动作+(m)+对象
+
+| 动作          | 意义                       |
+| ------------- | --------------             |
+| c/C           | 点击click/强制在新网页打开 |
+| h             | 悬浮hover                  |
+| d             | 下载download               |
+| y             | 拷贝                       |
+| v             | select                     |
+
+| 对象          | 意义                     |
+| ------------- | --------------           |
+| e             | 网页entire               |
+| w             | 单词word                 |
+| l             | 链接link                 |
+| v             | 视频video                |
+| i             | 输入框input              |
+| f             | 表单form                 |
+| c             | 表格的某列column         |
+| p             | 网页路径path             |
+| t             | 图片/picture被路径占用了 |
 
 
 ## SUI接口字母含义速记表
